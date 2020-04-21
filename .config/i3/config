@@ -212,6 +212,7 @@ memory \
 uptime \
 github \
 -p github.token=T0K3N \
+-p progress.format="{bar} {quantity}  {percentage} {speed} {time}" \
 -p sensors2.showtemp=false \
 -p cpu2.layout="cpu2.maxfreq cpu2.cpuload cpu2.coresload" \
 -t gruvbox-powerline
