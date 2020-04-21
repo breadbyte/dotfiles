@@ -1,0 +1,9 @@
+set morespace
+set nohelp
+set smooth
+set softwrap
+set linenumbers
+set autoindent
+set nonewlines
+set tabsize 4
+
