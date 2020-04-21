@@ -11,5 +11,6 @@ i hope i didn't miss anything important
 - install i3 window manager
 - install kitty terminal
 - clone bumblebee-status in ~/.config/
+- populate ssh ident in .zshrc
 - populate ssh shortcuts in i3 config
 - add github token in i3 config
