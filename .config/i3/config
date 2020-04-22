@@ -218,7 +218,13 @@ github \
 -t gruvbox-powerline
 }
 
-exec redshift
+mode "Passthrough Mode" {
+bindsym $mod+F12 mode "default"
+}
+bindsym $mod+F12 mode "Passthrough Mode"
+
+exec udiskie -as
+exec redshift-gtk
 exec flameshot
 exec pasystray
 exec discord
