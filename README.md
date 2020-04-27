@@ -11,7 +11,7 @@ i hope i didn't miss anything important
 - install tkinter, tk, whatever your distro has equivalent to tkinter
 - install i3 window manager
 - install kitty terminal
-- clone bumblebee-status in ~/.config/
+- clone [bumblebee-status](https://github.com/tobi-wan-kenobi/bumblebee-status) in ~/.config/
 - populate ssh ident in .zshrc
 - populate ssh shortcuts in i3 config
 - add github token in i3 config
