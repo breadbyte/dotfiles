@@ -5,7 +5,7 @@ i hope i didn't miss anything important
 
 # Installation
 - install jetbrains mono
-- install fonts-font-awesome
+- install fonts-font-awesome or whatever your distro has equivalent to fontawesome 4
 - install python3
 - `` $ pip3 install psutil requests netifaces ``
 - install tkinter, tk, whatever your distro has equivalent to tkinter
