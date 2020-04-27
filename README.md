@@ -19,7 +19,7 @@ i hope i didn't miss anything important
 - download [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 - use this [bullet train theme for oh-my-zsh](https://github.com/caiogondim/bullet-train.zsh)
 - install the [tmux-themepack](https://github.com/jimeh/tmux-themepack) with theme ``set -g @themepack 'powerline/block/cyan'``
-  - manually install [this fork](https://github.com/jimeh/tmux-themepack/pull/34/commits/06a63f4118dbc2eab18931bcdb0a3839a2d039fa) for prefix key indicator
+  - manually install [this branch](https://github.com/jimeh/tmux-themepack/pull/34/commits/06a63f4118dbc2eab18931bcdb0a3839a2d039fa) for prefix key indicator
 - populate ssh ident in .zshrc
 - populate ssh shortcuts in i3 config
 - add github token in i3 config
