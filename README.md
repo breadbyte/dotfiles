@@ -7,7 +7,8 @@ i hope i didn't miss anything important
 - install jetbrains mono
 - install fonts-font-awesome
 - install python3
-- `` $ pip3 install psutil requests netifaces tkinter ``
+- `` $ pip3 install psutil requests netifaces ``
+- install tkinter, tk, whatever your distro has equivalent to tkinter
 - install i3 window manager
 - install kitty terminal
 - clone bumblebee-status in ~/.config/
