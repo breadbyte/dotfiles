@@ -15,6 +15,10 @@ i hope i didn't miss anything important
 - install kitty terminal
 - install openssh (for ssh-agent)
 - install xorg-xkill or whatever your distro has equivalent to xkill
+- install udiskie
+- install pasystray, pavucontrol
+- install redshift-gtk
+- install flameshot
 - clone [bumblebee-status](https://github.com/tobi-wan-kenobi/bumblebee-status) in ~/.config/i3
 - download [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 - use this [bullet train theme for oh-my-zsh](https://github.com/caiogondim/bullet-train.zsh)
