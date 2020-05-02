@@ -15,7 +15,7 @@ i hope i didn't miss anything important
 - install kitty terminal
 - install openssh (for ssh-agent)
 - install xorg-xkill or whatever your distro has equivalent to xkill
-- clone [bumblebee-status](https://github.com/tobi-wan-kenobi/bumblebee-status) in ~/.config/
+- clone [bumblebee-status](https://github.com/tobi-wan-kenobi/bumblebee-status) in ~/.config/i3
 - download [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 - use this [bullet train theme for oh-my-zsh](https://github.com/caiogondim/bullet-train.zsh)
 - install the [tmux-themepack](https://github.com/jimeh/tmux-themepack) with theme ``set -g @themepack 'powerline/block/cyan'``
