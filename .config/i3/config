@@ -183,16 +183,11 @@ position top
 status_command python3 ~/.config/i3/bumblebee-status/bumblebee-status -m \
 system \
 hostname \
-shortcut \
-spacer \
 traffic \
 ping \
 datetime \
 redshift \
 -p spacer.text="" \
--p shortcut.cmds="kitty ssh primary|kitty ssh buildserver" \
--p shortcut.labels="primary|buildserver" \
--p shortcut.delim="|" \
 -t onedark-powerline
 }
 
@@ -202,7 +197,6 @@ tray_output none
 mode dock
 position bottom
 status_command python3 ~/.config/i3/bumblebee-status/bumblebee-status -m \
-progress \
 disk \
 nic \
 sensors2 \
@@ -212,7 +206,6 @@ memory \
 uptime \
 github \
 -p github.token=T0K3N \
--p progress.format="{bar} {quantity}  {percentage} {speed} {time}" \
 -p sensors2.showtemp=false \
 -p cpu2.layout="cpu2.maxfreq cpu2.cpuload cpu2.coresload" \
 -t gruvbox-powerline
