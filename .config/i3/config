@@ -216,6 +216,14 @@ bindsym $mod+F12 mode "default"
 }
 bindsym $mod+F12 mode "Passthrough Mode"
 
+mode "Emergency Mode" {
+set $mod Mod1
+bindsym $mod+Shift+F11 mode "default"
+bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+d exec dmenu_run
+}
+bindsym $mod+Shift+F11 mode "Emergency Mode"
+
 exec udiskie -as
 exec redshift-gtk
 exec flameshot
