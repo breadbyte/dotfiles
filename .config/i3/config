@@ -10,6 +10,11 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 set $mod Mod1
 
+# Probably could be done better somewhere else but eh, good enough
+exec xrandr --newmode "1280x1024" 109.00  1280 1368 1496 1712  1024 1027 1034 1063 -hsync +vsync
+exec xrandr --addmode VGA-0 1280x1024
+exec xrandr --output VGA-0 --mode 1280x1024
+
 exec pkill rofi
 focus_on_window_activation urgent
 
